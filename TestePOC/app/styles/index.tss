@@ -1,0 +1,44 @@
+".container": {
+	backgroundColor:"white",
+	layout: 'vertical'
+},
+"#btnPhoto": {
+	top: '5%',
+	backgroundColor:"#4682B4",
+	width: 'auto',
+	height: '100px',
+	padding: '25px',
+	borderRadius: 10,
+	color: "#fff",
+},
+"#nImage": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	top: '1%'
+},
+"#img":{
+	width: '650px',
+	height: '700px',
+	borderWidth: 5,,
+	borderColor: "gray",
+},
+"#btnShare":{
+	top: '1%',
+	backgroundColor:"#B22222",
+	width: 'auto',
+	height: '100px',
+	borderRadius: 10,
+	left: 17,
+	color: "#fff",
+}
+".btnTestes": {
+	backgroundColor: "red",
+	width: 'auto',
+	height: '100px',
+	top: '-100px',
+	right:17,
+	borderRadius: 10,
+	color: "#fff",
+}
+

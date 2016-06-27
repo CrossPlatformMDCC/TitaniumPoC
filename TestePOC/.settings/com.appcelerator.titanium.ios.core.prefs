@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+iosLaunchConfigurationAttributes/ATTR_MINIFY=false
+iosLaunchConfigurationAttributes/ATTR_PROJECT_NAME=TestePOC
+iosLaunchConfigurationAttributes/ATTR_UPLOAD_DEBUG_SYMBOLS=false
+iosLaunchConfigurationAttributes/appid=com.ess.TesteSAC
+iosLaunchConfigurationAttributes/certificate=Pedro Rocha Junior (97EN2ESC8L)
+iosLaunchConfigurationAttributes/keychain=/Library/Keychains/System.keychain
+iosLaunchConfigurationAttributes/sdk_version=9.0
+iosLaunchConfigurationAttributes/uuid=00f90d4e-339c-41c7-aed4-6a722128bda5

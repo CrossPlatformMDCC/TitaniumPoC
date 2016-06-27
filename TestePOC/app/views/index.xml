@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container" exitOnClose="true">
+		<Button id="btnPhoto" onClick="takePhoto">Take a Photo</Button>
+		<Label id="nImage">IMAGE: </Label>
+		<ImageView id="img"/>
+		<Button id="btnShare" onClick="shareLoc">G+ Location</Button>
+		
+		<Button id="btnTeste1" class="btnTestes" onClick="teste1">Teste 01</Button>
+	</Window>
+</Alloy>

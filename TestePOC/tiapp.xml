@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.ess.titaniumPOC</id>
+    <name>PocApp</name>
+    <version>1.0</version>
+    <publisher>ess</publisher>
+    <url>http://www.great.ufc.br</url>
+    <description>not specified</description>
+    <copyright>2014 by ess</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>1e3c5b82-1a8f-43f6-9999-5bdcf30a70dd</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+                <key>NSLocationAlwaysUsageDescription</key>
+                <string>
+       Specify the reason for accessing the user's location information.
+       This appears in the alert dialog when asking the user for permission to
+       access their location.
+       </string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+        <module platform="android">com.appcelerator.apm</module>
+        <module platform="iphone">com.appcelerator.apm</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="ipad">false</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+    </deployment-targets>
+    <sdk-version>4.1.1.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">55e8f6d9438dcb307298928d</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">hELIWCeDofNKiBEvsMUGIbom4xsSdxHA</property>
+    <property name="acs-oauth-key-development" type="string">wyLkdPQI0cYgHzJH2PxPWu0NJBgTvDCC</property>
+    <property name="acs-api-key-development" type="string">cw2eHNDo8VvxtCMXmsHG3AtvsaZZYNUC</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">szOA8li6dLj4THPWLx</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">ML32WgnEy8bFOnJIiIAyA0tW6mWpUT4u</property>
+    <property name="acs-oauth-key-production" type="string">a9D631QolrYG2KF4SAIENaD8l89gIcp9</property>
+    <property name="acs-api-key-production" type="string">OP0bG98c7bryVSrncULfcfFVFa4ZjcsX</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">9gRP7O83LHxmy070mC</property>
+    <property name="appc-org-id" type="string">100041448</property>
+    <property name="appc-creator-user-id" type="string">701dcc1d-957f-478f-8fc8-848dbcae4f1e</property>
+</ti:app>
