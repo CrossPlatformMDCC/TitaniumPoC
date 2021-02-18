@@ -1,20 +1,22 @@
-# TitaniumPoC
+# Titanium POC
 
-## Sobre
+App developed using Titanium and JavaScript. This app obtain information from sensors, uses camera to take pictures, applies image filters, and shares data through social networks.
 
-Este aplicativo é proposto como prova de conceito (PoC) e aborda a utilização de recursos multimídia (câmera e photo slider), sensores (acelerômetro e GPS) e compartilhamento através de redes sociais, conceitos de plataformas móveis mais comumente utilizados.
+## Screens and features
 
-## Telas e funcionalidades
+<p style="display:flex; flex-direction:row">
+  <img src="https://github.com/CrossPlatformMDCC/TitaniumPoC/blob/master/docs/screenshot-titanium-android.png" height="400px" />
 
-<img src="https://github.com/CrossPlatformMDCC/TitaniumPoC/blob/master/docs/screenshot-titanium-mobile.png" height="400px" />
+ <img src="https://github.com/CrossPlatformMDCC/TitaniumPoC/blob/master/docs/screenshot-titanium-ios.png" height="400px" />
+</p>
 
-- Para a funcionalidade que utiliza recursos multimídia, há um botão de acesso à câmera e uma área destinada a exibir a imagem capturada.
-- Para realizar o slide das imagens capturadas e armazenadas pela aplicação, há a utilização do sensor acelerômetro.
-- A abordagem da comunicação externa é feita através de um segundo botão que permite o compartilhamento da localização atual, obtida a partir do GPS, na rede social Google+.
+- Image capture and storage
+- Slide of images controlled by the accelerometer, for example, rotating the smartphone from left to right
+- Options for applying image filters
+- Sharing the current location (obtained from the GPS) using Google+
+- Sharing images using Google+
 
-## Tecnologias
-
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
+## Technologies used
 
 - [Appcelerator Titanium](https://www.appcelerator.com/Titanium/)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
